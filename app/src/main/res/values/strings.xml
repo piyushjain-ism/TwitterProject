@@ -1,0 +1,8 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+    <string name="app_name">TweetReaderApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="show_tweet">Show Tweet</string>
+    <string name="top_tweet">Top 10 Tweets</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">SWQ49sXSN5A9Udpqyj9mUuPW5</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">UYGWF3kNue55PbsUhMfNIH5mVGtXEIm3bDMWpuarXo4pkf3WHi</string>
+</resources>

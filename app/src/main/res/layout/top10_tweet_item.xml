@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rectangle_box"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+    <ImageView
+        android:layout_weight=".2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/twitterdev"/>
+    <TextView
+        android:layout_marginLeft="@dimen/sixteen"
+        android:layout_weight=".8"
+        android:layout_gravity="center"
+        android:id="@+id/tweet_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="Sample Tweet"/>
+        </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/color_black"/>
+    </LinearLayout>
+</LinearLayout>

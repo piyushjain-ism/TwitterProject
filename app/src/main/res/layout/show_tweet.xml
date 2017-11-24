@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:twittersdk="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/no_tweet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Tweet."
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:textSize="@dimen/twenty"
+        android:layout_marginTop="@dimen/fortyEight"
+        android:gravity="center"
+        />
+    <ProgressBar
+        android:layout_marginTop="@dimen/twenty"
+        android:id="@+id/feed_progress"
+        android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:indeterminate="true" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:scrollbars="vertical" />
+
+
+</LinearLayout>
